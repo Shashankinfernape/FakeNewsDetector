@@ -130,13 +130,13 @@ def load_model(path):
 
 # 🌄 Set background
 try:
-    set_background("C:\\Users\\user\\Desktop\\pro\\Fake-News-Detection\\8fa672de-3ab1-478e-a885-2120c67f3822.png")
+    set_background("C:\\Users\\user\\Desktop\\Newpro\\Fake-News-Detection\\8fa672de-3ab1-478e-a885-2120c67f3822.png")
 except Exception as e:
     st.error(f"Failed to load background image: {str(e)}")
 
 # 📊 Load ML model and vectorizer
-model_path = "C:\\Users\\user\\Desktop\\pro\\Fake-News-Detection\\model.pkl"
-vectorizer_path = "C:\\Users\\user\\Desktop\\pro\\Fake-News-Detection\\vectorizer.pkl"
+model_path = "C:\\Users\\user\\Desktop\\Newpro\\Fake-News-Detection\\model.pkl"
+vectorizer_path = "C:\\Users\\user\\Desktop\\Newpro\\Fake-News-Detection\\vectorizer.pkl"
 
 model = load_model(model_path)
 vectorizer = load_model(vectorizer_path)
